@@ -1,0 +1,46 @@
+header{
+    background-color:  rgb(211, 115, 81);
+}
+.titulo{
+    display: flex;
+    margin-left: 100px;
+}
+main{
+    background-color: rgb(211, 115, 81);
+}
+
+
+label{ color:orange;}
+input[type = "radio"]{ display:none;}
+.clasificacion{
+    direction: rtl;/* right to left */
+    unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+label:hover{color:orange;}
+label:hover ~ label{color:orange;}
+input[type = "radio"]:checked ~ label{color:orange;}
+form{
+    text-align: center;
+}
+.boton{
+    text-align: center;
+}
+.card{
+    height: 750px;
+}
+
+.contenedor{
+    margin-left: 35px;
+    display: grid;
+    grid-template-columns: 335px 300px 300px 300px;
+    gap: 15px 15px;
+}
+.card-img-top{
+    width: 300px;
+    height: 250px;
+}
+.card-text1{
+    margin-bottom: 53px;
+}
+
+
